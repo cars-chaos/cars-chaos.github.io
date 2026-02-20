@@ -13,6 +13,9 @@
 .navbar {
     overflow: hidden; /* Hide overflow */
     background-color: #26b21d; /* Dark background color */
+    position: sticky;
+    top: 0;
+    z-index: 999;
   }
   
   /* Style the navigation bar links */

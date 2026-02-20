@@ -1,0 +1,103 @@
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #52bea8; /* green background */
+    color: white; /* white text color */
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+  }
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #26b21d; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #72c96c; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+.socialbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #26b21d; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .socialbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .socialbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .socialbar a:hover {
+    background-color: #72c96c; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+  .banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+  }
+
+  .banner-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -275%);
+    color: #26b21d;
+    text-shadow:
+     -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+    text-align: center;
+  }
+
+body {
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  letter-spacing: 3px;
+  background: #2e2d2d;
+  color: white;
+  text-align: center;
+}
+
+h5 {
+  font-size: 10px;
+}
